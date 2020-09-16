@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* used for the menu bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +16,7 @@ body {
     color: #ffffff;
 }
 
+/* used for the company's title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -32,23 +34,31 @@ body {
     font-size: 20px;
 }
 
+/* changes div ul property style types */
 .header div ul {
     list-style-type: none;
 }
 
+/* changes li item style types */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* changes color of all a tags */
 
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes size of all p tags */
+
 p {
     font-size: 16px;
 }
+
+/* main page photo */
 
 .hero {
     height: 800px;
@@ -58,6 +68,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* search engine optimization, reputation management, social media marketing blocks */
 
 .float-left {
     float: left;
@@ -75,6 +87,7 @@ p {
     margin-left: 20px;
 }
 
+/* start sidebar */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +129,7 @@ p {
     text-align: center;
 }
 
+/* used for images in the right aside */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +147,9 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* end sidebar */
+
+/* used for body of each article within the webpage */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -161,6 +178,8 @@ p {
     color: #ffffff;
 }
 
+/* used for images within articles*/
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,6 +191,8 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* used for titles of articles within webpage */
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -188,6 +209,7 @@ p {
     font-size: 36px;
 }
 
+/* used for information at the very bottom of the webpage */
 .footer {
     padding: 30px;
     clear: both;
