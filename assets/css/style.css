@@ -45,21 +45,18 @@ body {
     margin-left: 25px;
 }
 
-/* changes color of all a tags */
-
+/* updates link text and removes decoration */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 /* changes size of all p tags */
-
 p {
     font-size: 16px;
 }
 
 /* main page photo */
-
 .hero {
     height: 800px;
     width: 100%;
@@ -69,8 +66,7 @@ p {
     background-position: center;
 }
 
-/* search engine optimization, reputation management, social media marketing blocks */
-
+/* body layout for search engine optimization, reputation management, social media marketing blocks */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -88,17 +84,22 @@ p {
 }
 
 /* start sidebar */
+
+/* describes container for the sidebar */
 .benefits {
     margin-right: 20px;
+    margin-bottom: 32px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffffff;
     background-color: #2589bd;
 }
 
+/* describes body text format for each section of the sidebar */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -114,6 +115,7 @@ p {
     color: #ffffff;
 }
 
+/* describes headers for each section of sidebar */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -129,7 +131,7 @@ p {
     text-align: center;
 }
 
-/* used for images in the right aside */
+/* describes images within each section of the sidebar */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -150,7 +152,6 @@ p {
 /* end sidebar */
 
 /* used for body of each article within the webpage */
-
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -178,8 +179,7 @@ p {
     color: #ffffff;
 }
 
-/* used for images within articles*/
-
+/* used for images within main articles*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -193,7 +193,6 @@ p {
 }
 
 /* used for titles of articles within webpage */
-
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -209,7 +208,7 @@ p {
     font-size: 36px;
 }
 
-/* used for information at the very bottom of the webpage */
+/* used for information for the footer of the webpage */
 .footer {
     padding: 30px;
     clear: both;
