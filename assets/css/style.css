@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* used for the menu bar */
+/* used for the nav bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,6 +26,7 @@ body {
     color: #d9dcd6;
 }
 
+/* sets style and sizing of navbar links */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -66,11 +67,13 @@ p {
     background-position: center;
 }
 
-/* image layout for search engine optimization, reputation management, social media marketing blocks */
+/* image float for search engine optimization and social media marketing blocks */
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* image float for reputation management */
 
 .float-right {
     float: right;
@@ -100,7 +103,7 @@ p {
     background-color: #2589bd;
 }
 
-/* describes body text format for each section of the sidebar */
+/* text margins and color for each section of the sidebar */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -116,7 +119,7 @@ p {
     color: #ffffff;
 }
 
-/* describes headers for each section of sidebar */
+/* styling and margins for sidebar headers */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -132,7 +135,7 @@ p {
     text-align: center;
 }
 
-/* describes images within each section of the sidebar */
+/* image sizing within each section of the sidebar */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -152,7 +155,7 @@ p {
 }
 /* end sidebar */
 
-/* used for body of each article within the webpage */
+/* size and styling for box and text of main articles */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -180,7 +183,7 @@ p {
     color: #ffffff;
 }
 
-/* used for images within main articles*/
+/* used for image sizing within main articles*/
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -193,7 +196,7 @@ p {
     max-height: 200px;
 }
 
-/* used for titles of articles within webpage */
+/* used for title styling of articles within webpage */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
