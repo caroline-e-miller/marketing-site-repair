@@ -1,9 +1,11 @@
+/* sets basic parameters for webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color of webpage */
 body {
     background-color: #d9dcd6;
 }
@@ -22,10 +24,12 @@ body {
     font-size: 48px;
 }
 
+/* used for "seo" portion of title name */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* update semantic html tags */
 /* sets style and sizing of navbar links */
 .header div {
     padding-top: 15px;
@@ -40,6 +44,7 @@ body {
     list-style-type: none;
 }
 
+
 /* changes li item style types */
 .header div ul li {
     display: inline-block;
@@ -52,11 +57,6 @@ a {
     text-decoration: none;
 }
 
-/* changes size of all p tags */
-p {
-    font-size: 16px;
-}
-
 /* main page photo */
 .hero {
     height: 800px;
@@ -65,6 +65,39 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+/* large section which includes all three main articles on the left side */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* size and styling for box and text of main articles */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* used for image sizing within main articles*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/* used for title styling of articles within webpage */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* changes size of all p tags */
+p {
+    font-size: 16px;
 }
 
 /* image float for search engine optimization and social media marketing blocks */
@@ -78,13 +111,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* large section which includes all three main articles on the left side */
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* start sidebar */
@@ -104,113 +130,24 @@ p {
 }
 
 /* text margins and color for each section of the sidebar */
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styling and margins for sidebar headers */
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* image sizing within each section of the sidebar */
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 /* end sidebar */
-
-/* size and styling for box and text of main articles */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* used for image sizing within main articles*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* used for title styling of articles within webpage */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* used for information for the footer of the webpage */
 .footer {
