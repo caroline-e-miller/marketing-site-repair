@@ -1,5 +1,8 @@
 # Code Refactor
 
+# Note
+Since I transferred from the full-time program, there are a handful of commits in this repository from September. However, I have re-done the homework. In future homeworks, I will create new repositories so they start from a clean slate in terms of commits.
+
 # Description
 Presented with a poorly-formatted website that contained numerous errors, I fixed the code in order to satisfy the client's requests to meet greater accessibility standards. This was acheived by creating semantic HTML, creating responsive navbar elements, accesible alt attributes, and fixing CSS formatting issues including commenting.
 
