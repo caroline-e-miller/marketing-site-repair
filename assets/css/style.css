@@ -19,37 +19,36 @@ body {
 }
 
 /* used for the company's title */
-.header h1 {
+nav h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* used for "seo" portion of title name */
-.header h1 .seo {
+nav h1 .seo {
     color: #d9dcd6;
 }
 
 /* update semantic html tags */
 /* sets style and sizing of navbar links */
-.header div {
+nav ul {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-}
-
-/* changes div ul property style types */
-.header div ul {
     list-style-type: none;
 }
 
-
 /* changes li item style types */
-.header div ul li {
+nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* changes div ul property style types */
+/* nav div ul {
+} */
 
 /* updates link text and removes decoration */
 a {
@@ -68,14 +67,15 @@ a {
 }
 
 /* large section which includes all three main articles on the left side */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 /* size and styling for box and text of main articles */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+/* .search-engine-optimization, .online-reputation-management, .social-media-marketing { */
+article {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -85,12 +85,14 @@ a {
 }
 
 /* used for image sizing within main articles*/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+/* .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img { */
+article img {
     max-height: 200px;
 }
 
 /* used for title styling of articles within webpage */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+/* .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 { */
+article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -116,7 +118,8 @@ p {
 /* start sidebar */
 
 /* describes container for the sidebar */
-.benefits {
+/* .benefits { */
+aside {
     margin-right: 20px;
     margin-bottom: 32px;
     padding: 20px;
@@ -130,19 +133,22 @@ p {
 }
 
 /* text margins and color for each section of the sidebar */
-.benefit-lead, .benefit-brand, .benefit-cost {
+/* .benefit-lead, .benefit-brand, .benefit-cost { */
+aside section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 /* styling and margins for sidebar headers */
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+/* .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 { */
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
 /* image sizing within each section of the sidebar */
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+/* .benefit-lead img, .benefit-brand img, .benefit-cost img { */
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -150,13 +156,13 @@ p {
 /* end sidebar */
 
 /* used for information for the footer of the webpage */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
