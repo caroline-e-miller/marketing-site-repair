@@ -9,6 +9,10 @@ Presented with a poorly-formatted website that contained numerous errors, I fixe
 # Usage
 The user should be able to find the page using a search engine, navigate the webpage successfully, and most importantly, be able to use the page with proper accessibilty for those with disabilities.
 
+# Technologies Used
+
+HTML
+
 # Deployed link
 
 https://caroline-e-miller.github.io/marketing-site-repair/
